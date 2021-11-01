@@ -17,6 +17,14 @@ Depending on your platform, many installation options are possible. We
 are listing them more or less in the order from the most specific (and
 preferred) to the most generic ones.
 
+### Linux
+
+All-in-one installation:
+```
+wget -q -N https://monitoring.platform360.io/agent360.sh && bash agent360.sh USERTOKEN
+```
+You can find your USERTOKEN on the servers page (https://monitoring.platform360.io/servers/overview) by clicking the "Add server" button.
+
 ### Debian GNU/Linux
 
 Manual installation:
